@@ -23,9 +23,9 @@ public class DetailsController {
 	@GetMapping(value="/details")
 	public List<String> getAllDetails(){
 		 List<String> s=new ArrayList<String>();
-				 s.add("prasad");
-		 s.add("sunita");
-		 s.add("nikshita");
+				 s.add("one");
+		 s.add("two");
+		 s.add("three");
 		 
 		return s;
 	}
